@@ -1,0 +1,207 @@
+* {font-family: roboto, verdana, arial, sans-serif;
+}
+
+html {box-sizing: border-box;
+      border-collapse: collapse;
+}
+
+body {min-height: 100vh;
+      width: 100%;
+      margin: 0%;
+      z-index: -100;
+      background-color: #AAAAAA;
+}
+
+header {position: sticky;
+        top: 0%;
+        width: 50%;
+        min-width: 400px;
+        margin: auto;
+        padding: 15px 15px 0px 15px;
+        background-color: #3b8bc5;
+        box-shadow: 0px 3px 5px #000000AA;
+        overflow: auto;
+        z-index: 100;
+}
+
+#logo {display: block;
+      width: auto;
+      height: 10vh;
+      margin: 1vh;
+      float: left;
+}
+
+h1 {width: auto;
+    margin: 0 50px 0 0;
+    padding: 4vh 0 0 0;
+    font-size: 4vh;
+    font-weight: bold;
+    color: #FFFFF0;
+    float: right;
+}
+
+h2  {width: 100%;
+}
+
+
+nav {display: block;
+}
+
+ul  {margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+li a {padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #FFFFF0;
+      float: left;
+}
+
+li a:hover {background-color: #FFFFF0;
+            color: #3b8bc5;
+}
+
+.clearfix::after {
+  content: "";
+  clear: right;
+  display: table;
+}
+
+#wrapper {display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          min-height: 75vh;
+          width: 50%;
+          min-width: 400px;
+          margin: auto;
+          padding: 15px;
+          padding-top: 2.5%;
+          background-color: #FFFFF0AA;
+}
+
+#bio  {display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      min-width: 400px;
+      margin: 0%;
+      padding: 0px 15px;
+}
+
+.bio  {padding: 5px 150px 5px 15px;
+}
+
+#form {display: flex;
+      flex-direction: column;
+      margin: 0% 10%;
+}
+
+#submit {display: inline-block;
+        height: 50px;
+        width: 100px;
+        background-color: #183257;
+        border-width: thin;
+        color: #FFFFF0;
+        float: right;
+}
+
+#submit:hover {background-color: #FFFFF0;
+              color: #183257;
+              box-shadow: 5px 5px 5px #000000AA;
+}
+
+#submit:active {position: relative;
+              top: 3px;
+              left: 3px;
+              background-color: #3b8bc5;
+              color: #FFFFF0;
+              box-shadow: 5px 5px 5px #000000AA;
+}
+
+.contact {display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          font-size: 2vh;
+ }
+
+.lform {display: inline-block;
+      width: 25%;
+      height: 30px;
+      vertical-align: middle;
+      margin: 10px 25px;
+}
+
+.rform {display: inline-block;
+      width: 50%;
+      height: 30px;
+      vertical-align: middle;
+      margin: 10px 25px;
+}
+
+textarea.rform {display: block;
+                height: 200px;
+                width: 400px;
+}
+
+.row  {display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+}
+
+article h2 {font-size: 3vh;
+            margin: 2%;
+}
+
+section {width: 48%;
+        min-width: 360px;
+        padding: 0px 10px;
+        z-index: 1;
+}
+
+aside   {width: 48%;
+        min-width: 360px;
+}
+
+#headshot {display:block;
+          width: 300px;
+          height: auto;
+          margin: auto;
+          margin-top: -50px;
+          padding: 35px 20px 75px 20px;
+          transform: rotate(15deg);
+          background-color: white;
+          box-shadow: 5px 10px 8px rgb(0,0,0,0.7);
+          z-index: -10;
+}
+
+table {text-indent: 0px;
+}
+
+.cv {min-width: 400px;
+    padding: 0%;
+}
+
+th  {padding: 5px 15px;
+    font-size: 2vh;
+    font-weight: bold;
+    text-align: left;
+}
+
+td  {padding: 5px 15px;
+    font-size: 2vh;
+}
+
+.lcolumn  {font-weight: bold;
+          width: 150px;
+
+}
+
+footer    {height: 6vh;
+          width: 50%;
+          min-width: 400px;
+          margin: auto;
+          padding: 15px;
+          background-color: #183257;
+          color: #FFFFF0;
+}
